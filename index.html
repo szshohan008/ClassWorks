@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="box1">Scholarship</h1>
+    <fieldset class="box1">
+        <legend>Eligibility Test:</legend>
+        <input class="box" rows="2" cols="20" placeholder="ID"></input>
+        <input class="box" rows="2" cols="20" placeholder="Name"></input><br><br>
+        <select class="Department">
+		<option>Department</option>
+		<option >SWE</option>
+		<option >CSE</option>
+		<option >Bangla</option>
+		<option >English</option>
+		<option >Math.</option>
+	  </select>
+        <select class="Department">
+		<option>Batch</option>
+		<option>25</option>
+		<option>26</option>
+		<option>27</option>
+		<option>28</option>
+		<option>29</option>
+		<option>30</option>
+	  </select><br><br>
+        <input class="box" rows="2" cols="20" placeholder="SSC GPA"></input>
+        <input class="box" rows="2" cols="20" placeholder="HSC GPA"></input><br><br>
+        <label rows="2" cols="20" for="date">Date:</label><br/>
+        <input rows="2" cols="20" type="date" id="date" name="date"><br><br>
+        <tr>
+            <td>Campus:</td><br><br>
+            <td>
+                <input id="main" type="radio" name="Campus" value="m">
+                <label for="main">Main</label><br>
+                <input id="permanent" type="radio" name="Campus" value="p">
+                <label for="permanent">Permanent</label><br>
+                <input id="uttara" type="radio" name="Campus" value="u">
+                <label for="uttara">Uttara</label>
+            </td>
+        </tr><br><br>
+        <input type="checkbox">I'm a Childern of Freedom Fighter
+        <br/><br/>
+        <input type="submit" value="Submit" onclick="checkScholarship()">
+    </fieldset>
+    </form>
+    <script src="scholership.js"></script>
+</body>
+
+</html>
